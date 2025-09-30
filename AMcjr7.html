@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AMcjr7 Design Grafis - Jasa Desain</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0c7b84;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1, h2 {
+      font-size: 36px;
+      margin-bottom: 30px;
+      font-weight: bold;
+      background: linear-gradient(270deg, red, orange, yellow, green, cyan, blue, violet);
+      background-size: 1000% 100%;
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: animateText 5s linear infinite;
+    }
+
+    h2 {
+      font-size: 28px;
+    }
+
+    @keyframes animateText {
+      0% {
+        background-position: 0% 50%;
+      }
+      100% {
+        background-position: 100% 50%;
+      }
+    }
+
+    .service-list {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin: 30px 0;
+    }
+
+    .service-button {
+      background-color: #ffffff;
+      color: #0c7b84;
+      border: none;
+      padding: 15px;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+    }
+
+    .service-button:hover {
+      background-color: #ffd700;
+      color: #000;
+    }
+
+    .info-box {
+      margin-top: 30px;
+      font-size: 16px;
+    }
+
+    .tools {
+      margin-top: 20px;
+    }
+
+    .tools img {
+      height: 30px;
+      margin: 0 5px;
+    }
+
+    /* Tulisan Berjalan di Bawah */
+    .marquee-container {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #ffffff;
+      color: #0c7b84;
+      font-size: 14px;
+      font-weight: bold;
+      overflow: hidden;
+      white-space: nowrap;
+      z-index: 999;
+      border-top: 2px solid #0c7b84;
+    }
+
+    .marquee-text {
+      display: inline-block;
+      padding-left: 100%;
+      animation: marqueeAnim 25s linear infinite;
+    }
+
+    @keyframes marqueeAnim {
+      0% {
+        transform: translateX(0%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>JASA DESIGN</h1>
+    <h2>GRAFIS - AMcjr7 Design Grafis</h2>
+
+    <div class="service-list">
+      <a class="service-button" href="https://wa.me/6287738813613?text=Halo%20saya%20ingin%20pesan%20jasa%20Design%20Logo" target="_blank">Design Logo</a>
+      <a class="service-button" href="https://wa.me/6287738813613?text=Halo%20saya%20ingin%20pesan%20jasa%20Design%20Poster" target="_blank">Design Poster</a>
+      <a class="service-button" href="https://wa.me/6287738813613?text=Halo%20saya%20ingin%20pesan%20jasa%20Design%20Banner" target="_blank">Design Banner</a>
+      <a class="service-button" href="https://wa.me/6287738813613?text=Halo%20saya%20ingin%20pesan%20jasa%20Design%20Background Photo" target="_blank">Design Background Photo</a>
+      <a class="service-button" href="https://wa.me/6287738813613?text=Halo%20saya%20ingin%20pesan%20jasa%20Design%20Brosur" target="_blank">Design Brosur</a>
+      <a class="service-button" href="https://wa.me/6287738813613?text=Halo%20saya%20ingin%20pesan%20jasa%20Design%20CV" target="_blank">Design CV</a>
+      <a class="service-button" href="https://wa.me/6287738813613?text=Halo%20saya%20ingin%20pesan%20jasa%20Editing%20Office Word" target="_blank">Editing Office Word</a>
+      <a class="service-button" href="https://wa.me/6287738813613?text=Halo%20saya%20ingin%20pesan%20jasa%20Design%20Undangan" target="_blank">Design Undangan</a>
+      <a class="service-button" href="https://wa.me/6287738813613?text=Halo%20saya%20ingin%20pesan%20jasa%20Desain%20Lainnya" target="_blank">Design Lainnya</a>
+    </div>
+
+    <div class="info-box">
+      <p><strong>2 JAM - 1 HARI JADI</strong></p>
+      <p><strong>Di Kerjakan di Waktu Luang</strong></p>
+      <p><strong>Fast Respon via WhatsApp</strong></p>
+      <p><strong>Harga Bersahabat</strong></p>
+    </div>
+
+    <div class="tools">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" alt="Photoshop">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg" alt="Illustrator">
+    </div>
+  </div>
+
+  <!-- Tulisan Berjalan di Bawah -->
+  <div class="marquee-container">
+    <div class="marquee-text">📢 Promo Spesial! Pesan desain sekarang dan dapatkan harga spesial hanya hari ini! 🎉 | Fast Respon via WhatsApp 📱 | AMcjr7 Design Grafis - Solusi Kreatif Anda!</div>
+  </div>
+
+</body>
+</html>
